@@ -44,6 +44,11 @@ docs = [
     "mkdocs-git-committers-plugin-2",
     "mkdocs-git-revision-date-localized-plugin",
 ]
+playground = [
+    "anthropic>=0.78.0",
+    "httpx>=0.28.1",
+    "openai>=2.17.0",
+]
 
 [project.urls]
 "Homepage" = "https://shenxiangzhuang.github.io/agent"
