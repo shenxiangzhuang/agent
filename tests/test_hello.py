@@ -1,4 +1,4 @@
-from mppt.hello import hello
+from agent.hello import hello
 
 
 def test_hello() -> None:

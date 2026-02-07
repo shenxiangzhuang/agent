@@ -1,7 +1,7 @@
 [project]
-name = "mppt"
-version = "0.8.0"
-description = "A Modern Python Package Template"
+name = "agent"
+version = "0.1.0"
+description = "Just agent"
 authors = [{ name = "Xiangzhuang Shen", email = "datahonor@gmail.com" }]
 license = "MIT"
 readme = "README.md"
@@ -46,12 +46,11 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://shenxiangzhuang.github.io/mppt"
-"Bug Tracker" = "https://shenxiangzhuang.github.io/mppt/issues"
-"Documentation" = "https://shenxiangzhuang.github.io/mppt"
-"Source Code" = "https://github.com/shenxiangzhuang/mppt"
-"Release Notes" = "https://shenxiangzhuang.github.io/mppt/changelog/"
-
+"Homepage" = "https://shenxiangzhuang.github.io/agent"
+"Bug Tracker" = "https://shenxiangzhuang.github.io/agent/issues"
+"Documentation" = "https://shenxiangzhuang.github.io/agent"
+"Source Code" = "https://github.com/shenxiangzhuang/agent"
+"Release Notes" = "https://shenxiangzhuang.github.io/agent/changelog/"
 [tool.setuptools]
 zip-safe = true
 include-package-data = true
@@ -62,7 +61,7 @@ build-backend = "setuptools.build_meta"
 
 
 [tool.setuptools.packages.find]
-include = ["mppt*"]
+include = ["agent*"]
 namespaces = false
 
 

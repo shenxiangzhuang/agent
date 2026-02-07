@@ -1,27 +1,13 @@
-site_name: MPPT
-repo_url: https://github.com/shenxiangzhuang/mppt
-repo_name: shenxiangzhuang/mppt
-site_description: A Modern Python Package Template
+site_name: Agent
+repo_url: https://github.com/shenxiangzhuang/agent
+repo_name: shenxiangzhuang/agent
+site_description: Just agent.
 site_author: Xiangzhuang Shen
-copyright: Copyright &copy; 2023 Xiangzhuang Shen
+copyright: Copyright &copy; 2026 Xiangzhuang Shen
 
 # Page tree
 nav:
   - Home: index.md
-  - Package Management:
-      - package/index.md
-  - Documentation:
-      - doc/index.md
-  - Linters&Formatters:
-      - linter/index.md
-  - Testing:
-      - test/index.md
-  - Task Runner:
-      - task/index.md
-  - Miscellaneous:
-      - miscellaneous/index.md
-  - Changelog: changelog.md
-  - Author's website: https://shenxiangzhuang.github.io/
 
 theme:
   name: material
